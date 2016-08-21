@@ -1,0 +1,192 @@
+@import "mixins/mixins";
+@import "mixins/bubble";
+@import "config/color";
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+.img-welcome{
+	// height:90%; 
+	width:90%; 
+	vertical-align: top;
+}
+.dropdown-menu{
+	li{
+		padding-left: 0px;
+	}
+}
+.btn{
+	font: 18px THSarabunNew;
+	background-image: none;
+}
+.margin-lr-10{
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+.margin-r-10{
+	margin-right: 10px !important;
+}
+.margin-b-10{
+	@include margin-b(10px);
+}
+.margin-b-15{
+	@include margin-b(15px);
+}
+.margin-b-20{
+	@include margin-b(20px);
+}
+.margin-b-25{
+	@include margin-b(25px);
+}
+.margin-t-5{
+	@include margin-t(5px);
+}
+.margin-t-10{
+	@include margin-t(10px);
+}
+.margin-t-15{
+	@include margin-t(15px);
+}
+.margin-t-20{
+	margin-top: 20px;
+}
+.margin-t-25{
+	@include margin-t(25px);
+}
+.padding-t-20{
+	@include padding-t(20px);
+}
+.padding-b-20{
+	padding-bottom:20px;
+}
+.padding-l-0{
+	padding-left: 0px !important;
+}
+.padding-l-5{
+	padding-left: 5px !important;
+}
+
+// #addPosition{
+// 	.select2-selection--multiple{
+// 		border-left: 1px solid #ccc;
+// 	}
+// }
+a{
+	color: $info-text-color;
+}
+h3{
+	a{
+		color: $head-color;
+	}
+	a:hover{
+		color: $info-color;
+		text-decoration: none;
+	}
+}
+
+.print{
+	.label{
+		border-radius: 0px;
+	    font-size: 16px;
+	    font-weight: 100;
+	    margin-left: 15px;
+	    padding: 6px 12px;
+	}
+	margin: 20px 0;
+    cursor: pointer;
+}
+.body-jobdetail{
+	margin-top: 20px;
+	// margin-bottom: 50px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+option[default] {
+  display: none;
+}
+td{
+	i{
+		cursor: pointer;
+	}
+}
+.pointer{
+	cursor:pointer;
+}
+
+.text-gray{
+	color: $gray;
+	-webkit-print-color-adjust: exact;
+}
+.thumb {
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    margin: 5px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.lang{
+	border: none;
+	min-width: 20px;
+}
+
+th{
+	font: bold 16px Prompt;
+	
+}
+.loading{
+	width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 10;
+}
+.lock-scroll{
+	overflow:hidden;
+}
+
+.body-jobdetail{
+	img{
+		max-height: 200px;
+		max-width: 200px;
+	}
+}
+.p1{
+	color: #feb228;
+}
+input.cmn-toggle-yes-no + label{
+	&:before{
+		background-color: #e18c8c !important;
+	}
+	height: 23px !important;
+    margin-top: 8px;
+}
+.img-preview{
+	max-width: 200px;
+	max-height: 200px;
+}
+.t-left{
+	text-align: left !important;
+}
+.none-decoration{
+	&:hover,&:focus {
+		text-decoration: none;
+	}
+	text-decoration: none;
+}
+.table {
+	.checkbox {
+		margin: 0px;
+	}
+}
+.underline{
+    border-bottom: 2px dotted #eee;
+    margin: 10px 40px;
+}

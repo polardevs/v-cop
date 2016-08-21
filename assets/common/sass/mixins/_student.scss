@@ -1,0 +1,54 @@
+@import "config/color";
+.body-student{
+	.menu-stydent li{
+		.active , a:HOVER{
+			color: $info-color !important;	
+		}
+		a{
+			color: #676767;
+			text-decoration: none;
+		}
+		padding-bottom: 15px;
+	}
+	.pagination{
+    float: right;
+	}
+	.bg-gray{
+		h3{
+			padding: 15px; 
+			margin-top: 0px;
+		}
+		background-color: #ccc;
+		margin-left: -15px; 
+		margin-right: -15px;
+	}
+	.bg-info{
+		h3{
+			padding: 15px; 
+			margin-top: 0px;
+		}
+		background-color: $info-color;
+		margin-left: -15px; 
+		margin-right: -15px;
+		color : #fff;
+	}
+	padding-top: 20px;
+}
+.circular img {
+	width: 140px;
+	height: 140px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.numberCircle {
+	border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    background: #CCC;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;;
+}
+

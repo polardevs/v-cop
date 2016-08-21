@@ -1,0 +1,29 @@
+@import "config/color";
+td{
+	vertical-align:top;
+}
+.title{
+	h6{
+		margin-bottom: 0px;
+	}
+	border-bottom: 1px solid $info-text-color;
+	padding-top: 10px;
+	color:$info-text-color !important;
+}
+table{
+	width: 100%
+}
+.border-item{
+	border-bottom: 1px dashed #b0e7f8;
+}
+body{
+	font: 400 20px THSarabunNew;
+}
+b{
+   font: bold 20px THSarabunNew;
+}
+.body-showresume{
+	.form-control-static ,.control-label{
+		font: bold 20px THSarabunNewBold;
+	}
+}

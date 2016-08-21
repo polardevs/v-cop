@@ -1,0 +1,16 @@
+@mixin padding-b($size) {
+    padding-bottom: $size;
+}
+
+@mixin padding-t($size) {
+    padding-top: $size;
+}
+
+@mixin margin-b($size) {
+    margin-bottom: $size;
+}
+
+@mixin margin-t($size) {
+    margin-top: $size;
+    display: block;
+}

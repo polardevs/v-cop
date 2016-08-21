@@ -1,0 +1,57 @@
+@import "config/color";
+.nav-company{
+  li{
+    a:focus,a:hover,a.active {
+      background:transparent;
+      color: $info-color;
+    }
+    a{
+      color: $nav-color;
+    }
+  }
+}
+.menu-stydent li .active ,.menu-stydent li :HOVER,
+.nav-company .navbar-nav>li>a.active ,
+.nav-company .navbar-nav>li>a:HOVER,
+.nav-company .navbar-brand:HOVER ,
+.nav-company .active{
+  color: $info-color;
+  background: transparent;
+}
+.announce-company{
+  strong{
+    color: $head-color;
+  }
+  color: $default-color;
+  padding: 0px 15px;
+  white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.redirect{
+  a{
+    cursor: pointer;
+  }
+}
+.c-mail-chat{
+  .col-xs-4{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+    height: 400px;
+    overflow-x: hidden;
+  // background-color: #efefef;
+}
+.message{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.message-date{
+  small{
+    color: #999;
+  }
+}
+.status {
+  border-radius: 4px;
+  color: #fff;
+}

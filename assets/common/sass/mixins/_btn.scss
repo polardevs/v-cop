@@ -1,0 +1,38 @@
+#avatar-form{
+	.input-group{
+		display: block;
+	}
+}
+.bootstrap-filestyle{
+	.glyphicon {
+	    font-size: 12px;
+	}
+	.btn {
+	    padding: 4px 10px;	
+		border-radius: 4px;
+	}
+	.btn-gray{
+		padding: 6px 12px;
+		margin-top: 15px; 
+	    display: block;		
+	}
+	input[disabled]{
+		background-color: #fff;
+	}
+}
+
+.btn{
+	a , a:hover{
+		color: #fff;
+		text-decoration: none;
+	}
+}
+.tooltipster-content{
+	a{
+		color: #666;
+		cursor: pointer;
+	}
+}
+.attFilePath {
+	padding-top: 10px;
+}

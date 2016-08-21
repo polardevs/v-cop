@@ -1,0 +1,28 @@
+@import "config/color";
+
+.Announce{
+	color: #777;
+}
+.detail{
+  color: $info-text-color;
+  text-decoration: underline;
+}
+.news-announce{
+	h4{
+		margin-top: 0px; 
+	}
+	p{
+		margin-bottom: 0px;
+	}
+	border: 1px solid #cecece;
+	padding: 15px;
+}
+.createDt{
+	color: $info-color;	
+}
+.announce-student{
+	color: #aaa;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{
+	margin-top: 7px;
+}

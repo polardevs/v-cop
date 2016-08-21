@@ -1,0 +1,32 @@
+td {
+  vertical-align: top;
+}
+
+.title {
+  border-bottom: 1px solid #5bc0de;
+  padding-top: 10px;
+  color: #5bc0de !important;
+}
+.title h6 {
+  margin-bottom: 0px;
+}
+
+table {
+  width: 100%;
+}
+
+.border-item {
+  border-bottom: 1px dashed #b0e7f8;
+}
+
+body {
+  font: 400 20px THSarabunNew;
+}
+
+b {
+  font: bold 20px THSarabunNew;
+}
+
+.body-showresume .form-control-static, .body-showresume .control-label {
+  font: bold 20px THSarabunNewBold;
+}

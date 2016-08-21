@@ -1,0 +1,53 @@
+@import "config/color";
+
+@media print {
+  color: #eee;
+}
+.body-showresume{
+  label{
+    padding-top: 0px !important;
+  }
+  .form-control-static{
+    padding-top: 0px;
+  }
+  .form-group{
+    margin-bottom: 0px;
+  }
+  img{
+    max-height: 200px;
+    max-width: 160px;
+  }
+  .box-title{
+    border-bottom: 2px solid $box-title;
+    
+    h3{
+      margin-bottom: 0px;
+    }
+    
+    span{
+      font-weight: normal;
+    }
+  }
+  .box-content{
+    padding : 10px 0;
+  }
+  .underline{
+    border-bottom: 2px dotted $box-title;
+    margin: 10px 40px;
+  }
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.labelshowresume{
+  .label{
+    border-radius: 0px;
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 6px 12px;
+  }
+  margin: 20px 0;
+  margin-right: 8.33333333%;
+  cursor: pointer;
+}

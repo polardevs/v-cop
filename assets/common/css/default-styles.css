@@ -1,0 +1,367 @@
+.help-block{ margin: 0 !important; }
+.revert-form-group{ margin-left: 0 !important; margin-right: 0 !important; margin-bottom: 0 !important; }
+.breadcrumb{ margin-bottom: 8px !important; font-size: 12px; background-color: white; border: 1px solid #dddddd;  }
+.page-header{ margin-bottom: 10px !important; margin-top: 0; }
+.bs-callout{ margin: 0 !important; }
+.bs-callout.breadcrumbs{ padding: 0 20px; }
+.bs-callout p{ margin: 0; padding: 0; font-size: 12px; }
+.bs-callout .hr-normal{ margin-top: 5px; margin-bottom: 5px; }
+.bs-callout small{ font-size: 70%; color: #949494; }
+.bs-callout .content{ padding: 10px; background-color: white; border: 1px solid #dddddd; position: relative; position: relative; }
+.timeline ol ul{ list-style: none; margin-top: 10px; }
+.table thead > tr > th{ border-top: 2px solid #dddddd; }
+.table thead > tr > th, .table thead > tr > td, .table tbody > tr > th, .table tbody > tr > td, .table tfoot > tr > th, .table tfoot > tr > td{ padding: 4px 8px; }
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td,
+.table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td{ border-bottom-width: 2px !important; border-top-width: 2px !important; }
+.dataTables_wrapper .dataTables_paginate{ margin-right: 0 !important; }
+div.text-muted{ font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+    font-family: Prompt;
+    letter-spacing: 1px;
+}
+body{
+	/*font: 20px db_helvethaica_x55_regular;*/
+	font:bold 20px THSarabunNewBold;
+	line-height: 28px;
+
+}
+.fontnormal{
+	font-weight: normal;
+}
+hr{
+	    border-top: 1px solid #333;
+}
+
+.research{
+	background-color: #0596D5;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+[class^="social-"], [class*="social-"]{
+	background-image: url(../images/social-icons.png);
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	margin-bottom: -6px;
+}
+
+.social-line{
+	background-position: 0 0;
+}
+
+.social-twitter{
+	background-position: -27px 0;
+}
+
+.social-facebook{
+	background-position: -54px 0;
+}
+
+.social-google{
+	background-position: -80px 0;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+blockquote footer, blockquote small, blockquote .small {
+	display: block;
+	font-size: 80%;
+	line-height: 1.42857143;
+	color: #999;
+}
+blockquote footer:before, blockquote small:before, blockquote .small:before {
+content: '\2014 \00A0';
+}
+
+@media (max-width: 767px) {
+  .text-center-xs { text-align: center; } 
+  h1.login{ font-size: 300%; color: #fff; }
+}
+
+@media (min-width: 768px) {
+  .img-responsive-sm { display: block; height: auto; max-width: 100%; } 
+  h1.login{ font-size: 400%; color: #fff; }
+}
+
+/*
+iPad Media Queries (All generations - including iPad mini)
+Thanks to Apple's work in creating a consistent experience for users, and easy time for developers, 
+all 5 different iPads (iPads 1-5 and iPad mini) can be targeted with just one CSS media query. 
+The next few lines of code should work perfect for a responsive design.
+*/
+
+
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+	h1.login{ color: #fff; }
+}
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+	h1.login{ font-size: 400%; }
+}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+	h1.login{ font-size: 300%; }
+}
+
+/*
+iPad 3 & 4 Media Queries
+If you're looking to target only 3rd and 4th generation Retina iPads (or tablets with similar resolution) to add @2x graphics, 
+or other features for the tablet's Retina display, use the following media queries.
+*/
+
+/* Retina iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) { 
+	h1.login{ font-size: 400%; }
+}
+
+/* Retina iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) { 
+	/* STYLES GO HERE */
+}
+
+/* Retina iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) { 
+	/* STYLES GO HERE */ 
+}
+
+/*
+iPad 1 & 2 Media Queries
+If you're looking to supply different graphics or choose different typography for the lower resolution iPad display, 
+the media queries below will work like a charm in your responsive design!
+*/
+
+/* iPad 1 & 2 in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1){
+	 /* STYLES GO HERE */
+}
+
+/* iPad 1 & 2 in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  { 
+	/* STYLES GO HERE */
+}
+
+/* iPad 1 & 2 in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) { 
+	/* STYLES GO HERE */ 
+}
+
+@media screen and (max-width: 767px) {
+  .no-mg-t-xs {
+    margin-top: 0 !important; } }
+
+.no-mg-t {
+  margin-top: 0 !important; }
+
+.no-mg-b {
+  margin-bottom: 0 !important; }
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto; }
+
+#stats-chart1, #stats-chart2, #stats-chart3, #stats-chart7, #stats-chart8 {
+  height: 200px; }
+
+.color-settings .color-title {
+  font-weight: bold;
+  padding-left: 10px; }
+
+.wysihtml5-sandbox {
+  box-sizing: border-box; }
+  
+ .label-switch {
+  	float: left;
+	display: inline-block;
+	margin-right: 3px;
+  }
+  
+ .label-switch div.label-switch-title{
+ 	line-height: 30px;
+	margin-right: 5px;
+	float: left;
+ }
+ 
+  .label-switch label{
+  	content: "click";
+  }
+  
+  .label-action{
+  	float: left;
+	display: inline-block;
+	/*margin-right: 3px;*/
+	text-align: right
+  }
+  
+#main-category, #sub-category { height: 288px; overflow-x: hidden; overflow-y: auto;} 
+#main-category::-webkit-scrollbar,
+#sub-category::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+#main-category::-webkit-scrollbar-button:start:decrement,
+#sub-category::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	height: 100%;
+	display: block;
+	background-color: transparent;
+}
+
+#main-category::-webkit-scrollbar-track-piece ,
+#sub-category::-webkit-scrollbar-track-piece  {
+	background-color: #3b3b3b;
+	-webkit-border-radius: 6px;
+}
+
+#main-category::-webkit-scrollbar-thumb:vertical,
+#sub-category::-webkit-scrollbar-thumb:vertical {
+	height: 20%;
+	background-color: #666;
+	border: 1px solid #eee;
+	-webkit-border-radius: 6px;
+}
+
+.content{ position: relative; }
+.content #gallery{ }
+.content #gallery ul.thumb li{ background-color: #ffffff; }
+.content #gallery ul.thumb li.grid{ width: 24.5%; margin: 0 0 10px 0; padding: 0; border: 1px solid #dddddd; }
+.content #gallery ul.thumb li.grid.wide{ width: 50%; }
+.content #gallery ul.thumb li.grid embed{  width: 100%; height: auto; }
+.content #gallery ul.thumb li.grid.wide embed{ height: 300px; }
+.content #gallery ul.thumb li.grid .image{  width: 100%; height: 150px; overflow: hidden;}
+.content #gallery ul.thumb li.grid .image a{ width: 100%; height: auto; }
+.content #gallery ul.thumb li.grid .image a img{ width: 100%; height: auto;  }
+.content #gallery ul.thumb li.grid .option{ padding: 0 5px 10px 5px; }
+
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+	color: #fff;
+}
+.btn-primary a{
+	color: #fff;
+}
+.color-f{
+	color: #fff;
+}
+
+.navbar-nav>li>span{
+    display: table-cell;
+    vertical-align: middle;
+}
+co{
+	color: #feb228;
+	font-weight: bold;
+}
+.p1 ,.p2{
+	color: #feb228;
+}
+.p1 span ,.p2 span{
+	color: #666;
+}
+.dropdown-menu{
+	font: 20px THSarabunNewBold;
+}
+.login{
+	background-color: #eee;
+	color: #333;
+}
+
+.nav-stacked ol,ul {
+	list-style: none;
+}
+
+
+.btn-gray{
+	color: #fff;
+    background-color: #999;
+/*     border-color: #ccc */
+}
+.btn-gray:hover,
+.btn-gray:focus,
+.btn-gray:active,
+.btn-gray.active,
+.open .dropdown-toggle.btn-gray {
+    color: #fff;
+    background-color: #777;
+    border-color: #adadad
+}
+.btn-blue{
+	color: #fff;
+    background-color: #2C3E50;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+    color: #fff;
+    background-color: #253342;
+}
+.file-input{
+	font-style: 20px;
+	position: relative;
+    top: 7px;
+}
+.text-blue{
+	color: #0596D5;
+}
+.text-red{
+	color: #F00;
+}
+#DataTable th{
+	color: #333;
+}
+.inline-block{
+	display: inline-block;
+	padding-right: 15px;
+}
+/*.student-find .input-group-addon{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-right: none;
+	border-radius: 0px;
+}
+.student-find input{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-left: none;
+	border-radius: 0px;
+}*/
+.company >li>a:HOVER{
+	background-color: #3598DB;
+}
+.bs-example {
+    position: relative;
+    padding: 45px 15px 15px;
+    margin: 0 -15px 15px;
+    border-color: #e5e5e5 #eee #eee;
+    border-style: solid;
+    border-width: 1px 0;
+    -webkit-box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+    box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+}
